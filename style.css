@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body html{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+#nav{
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 70px;
+    display: flex;
+    gap: 50px;
+    z-index: 90;
+    position: fixed;
+    color: #fff;
+
+}
+#nav img{
+    height: 70px;
+
+}
+#nav h4{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: fixed;
+}
+#main{
+    position: relative;
+    background-color: rgba(5, 5, 5, 0.144);
+}
+#page1{
+    
+    height: 100vh;
+    width: 100;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+#page1 h1{
+    font-size: 100px;
+    position: relative;
+    font-weight:900px;
+    
+}
+#page1 h1::before{ 
+    content: "Hey Rahim Playing Cricket";
+    position: absolute;
+    color: rgb(1, 0, 0);
+    top: -6px;
+    left: -6px;
+    z-index: -1;
+    -webkit-text-stroke: 2px rgb(8, 9, 8);
+}
+
+#page1 h2{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 700px;
+    
+}
+#page1 p{
+    font-size: 20px;
+    font-weight: 300px;
+    width: 30%;
+    
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+}
